@@ -1,0 +1,52 @@
+
+Kreative Saint App – Full Stack Code Summary
+
+===============================
+Frontend (React + TypeScript)
+===============================
+- client/src/App.tsx: Main app file – handles auth and routing
+- client/src/pages/home.tsx: Home screen with dashboard + tabs
+- client/src/pages/signup.tsx: Signup screen (for family members, users)
+- public/manifest.json: PWA settings (name, icons, installability)
+- package.json: Dependencies and scripts (start, build, etc.)
+- tailwind.config.js: Tailwind CSS configuration
+
+✔ Features:
+- Mobile-first design
+- Tailwind CSS styling
+- Dark mode + Purple theme
+- React Router navigation
+- Devotional Feed, Booking System, Team Join tabs
+
+========================
+Backend (Node.js + Express)
+========================
+- server/index.ts: Main server file (handles sessions, server start)
+- server/routes.ts: API route definitions
+- .env: Environment variables (EMAIL_USER, EMAIL_PASSWORD, DATABASE_URL, PORT)
+
+✔ Features:
+- Email notifications via Gmail
+- Google Sheets API integration
+- RESTful API endpoints
+
+========================
+Database (PostgreSQL + Drizzle ORM)
+========================
+- shared/schema.ts: PostgreSQL schema using Drizzle ORM
+
+✔ Stores:
+- User accounts and family signup data
+- Booking requests
+- Devotional feed entries
+- Team/volunteer applications
+- Service tracking and tips
+
+========================
+NPM Scripts (for running the app)
+========================
+npm run dev     # Development mode
+npm run build   # Build production frontend
+npm run start   # Start production server
+
+App runs on port 5000.
